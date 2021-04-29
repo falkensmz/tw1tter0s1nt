@@ -15,5 +15,8 @@ REQUIREMENTS :
 
   - twint fully installed  (https://github.com/twintproject/twint)
   - A Linux distro
+  - Python3
+  - python3-pip
+  - git
 
 Thanks, c0m3t-k2!
