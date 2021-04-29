@@ -11,4 +11,9 @@ I have created this tool for begginers, to automate the process of twint.
 
 - I will update this tool whenever new ideas pop in my head so let me know if you find any bugs or if you can help me improve the tool!
 
+REQUIREMENTS : 
+
+  - twint fully installed  (https://github.com/twintproject/twint)
+  - A Linux distro
+
 Thanks, c0m3t-k2!
