@@ -1,36 +1,55 @@
 import twint
 from datetime import datetime
 
-
+print("")
+print("")
+print(r"""  █████                    ████   █████     █████                          █████            ████              █████   
+ ░░███                    ░░███  ░░███     ░░███                         ███░░░███         ░░███             ░░███    
+ ███████   █████ ███ █████ ░███  ███████   ███████    ██████  ████████  ███   ░░███  █████  ░███  ████████   ███████  
+░░░███░   ░░███ ░███░░███  ░███ ░░░███░   ░░░███░    ███░░███░░███░░███░███    ░███ ███░░   ░███ ░░███░░███ ░░░███░   
+  ░███     ░███ ░███ ░███  ░███   ░███      ░███    ░███████  ░███ ░░░ ░███    ░███░░█████  ░███  ░███ ░███   ░███    
+  ░███ ███ ░░███████████   ░███   ░███ ███  ░███ ███░███░░░   ░███     ░░███   ███  ░░░░███ ░███  ░███ ░███   ░███ ███
+  ░░█████   ░░████░████    █████  ░░█████   ░░█████ ░░██████  █████     ░░░█████░   ██████  █████ ████ █████  ░░█████ 
+   ░░░░░     ░░░░ ░░░░    ░░░░░    ░░░░░     ░░░░░   ░░░░░░  ░░░░░        ░░░░░░   ░░░░░░  ░░░░░ ░░░░ ░░░░░    ░░░░░  
+                                                                                                                      
+                                                                                                                      
+                                                                                                                      """)
 print("tw1tter0s1nt - A tool for Penetration Testers and Ethical Hacking students")
 print("")
 print("tw1tter0s1nt is a twint based OSiNT tool for investigations on Twitter!")
 print("This python script makes it much easier to use twint!")
 print("Developer --> c0m3t-k2")
-print("Github page --> https://github.com/c0m3t-k2/tw1tter0s1nt")
-print("tw1tter0s1nt --version 1.0 ")
+print("Github page --> https://github.com/c0m3t-k2/tw1tter0s1nt.git")
 print("")
+print("tw1tter0s1nt --> version 1.2")
 print("")
 print("")
 
 username = input("osinter@tw1tter0s1nt > Enter your target's name : ")
 
+print("")
 print("1 - Only the usernames of", username, "'s followers")
 print("2 - Custom keyword found in tweet(s)")
 print("3 - Search for potential emails")
 print("4 - Search for potential numbers")
 print("5 - Pull all the followers from", username, " + a lot of information on them")
+print("6 - Who is", username, "following? (Beta)")
+print("7 - Investigate", username, "(JUST RELEASED)")
+print("8 - Filter", username, "'s tweets by media")
 print("")
 print("")
 
 choice = input("osinter@tw1tter0s1nt > What would you like to search? :")
 
 if choice == '1':
+    limit111 = input("osinter@tw1tter0s1nt > Enter a limit of tweets right here: ")
     today = datetime.now().strftime('%Y-%m-%d')
 
     c = twint.Config()
     c.To = username
+    c.Limit = limit111
     c.Since = today
+    c.Followers = True
     c.Hide_output = True
     c.Store_object = True
 
@@ -70,24 +89,28 @@ if choice == '2':
         c.Limit = limit1
         c.Popular_tweets == True
         twint.run.Search(c)
-if choice == '3':
-	print("grabbing all the emails that", username, "has included in their tweets.....")
-	print("")
-	print("")
-	print("coded by c0m3t")
-	print("")
-	print("")
-	c = twint.Config()
-	c.Username = username
-	c.Email = True
-	twint.run.Search(c)
-if choice == '4':
-	print("pulling all the tweets that have the keyword 'phone' in it")
-	c = twint.Config()
-	c.Username = username
-	c.Phone = True
-	twint.run.Search(c)
-if choice == '5':
+elif choice == '3':
+    limit2 = input("osinter@tw1tter0s1nt > Enter a limit of tweets right here: ")
+    print("grabbing all the emails that", username, "has included in their tweets.....")
+    print("")
+    print("")
+    print("coded by c0m3t")
+    print("")
+    print("")
+    c = twint.Config()
+    c.Username = username
+    c.Email = True
+    twint.run.Search(c)
+
+elif choice == '4':
+    limit3 = input("osinter@tw1tter0s1nt > Enter a limit of tweets right here: ")
+    print("osinter@tw1tter0s1nt > pulling all the tweets that have the keyword 'phone' in it")
+    c = twint.Config()
+    c.Username = username
+    c.Limit = limit3
+    c.Phone = True
+    twint.run.Search(c)
+elif choice == '5':
     limit = input("Enter a limit of followers otherwise the program might crash or there will be too many users: ")
     print("")
     print("coded by c0m3t")
@@ -97,5 +120,31 @@ if choice == '5':
     c.Followers == True
     c.Limit = limit
     c.User_full == True
+
+    twint.run.Search(c)
+elif choice == '6':
+    # not 100% working, still trying to fix some bugs
+    limit222 = input("osinter@tw1tter0s1nt > Enter a limit of users : ")
+    print("")
+    print("coded by c0m3t-k2")
+    print("Github page : https://github.com/c0m3t-k2/tw1tter0s1nt")
+    print("")
+    print("")
+    c = twint.Config()
+    c.Username = username
+    c.Limit = limit222
+
+    twint.run.Following(c)
+elif choice == '7':
+    c = twint.Config()
+    c.Username = username
+
+    twint.run.Lookup(c)
+elif choice == '8':
+    limit444 = input("osinter@tw1tter0s1nt > Enter a limit for the tweets: ")
+    c = twint.Config()
+    c.Username = username
+    c.Limit = limit444
+    c.Media == True
 
     twint.run.Search(c)
