@@ -21,7 +21,7 @@ print("This python script makes it much easier to use twint!")
 print("Developer --> c0m3t-k2")
 print("Github page --> https://github.com/c0m3t-k2/tw1tter0s1nt.git")
 print("")
-print("tw1tter0s1nt --> version 1.2")
+print("tw1tter0s1nt --> version 1.3")
 print("")
 print("")
 
@@ -33,10 +33,12 @@ print("2 - Custom keyword found in tweet(s)")
 print("3 - Search for potential emails")
 print("4 - Search for potential numbers")
 print("5 - Pull all the followers from", username, " + a lot of information on them")
-print("6 - Who is", username, "following? (Beta)")
-print("7 - Investigate", username, "(JUST RELEASED)")
+print("6 - Who is", username, "following?")
+print("7 - Investigate", username, "")
 print("8 - Filter", username, "'s tweets by media")
+print("9 - Filter results by minimum likes ")
 print("")
+print("osinter@tw1tter0s1nt > Message from c0m3t-k2 ---> You may find bugs with option 9 since it just got released. Anything goes wrong, contact me on Github!")
 print("")
 
 choice = input("osinter@tw1tter0s1nt > What would you like to search? :")
@@ -146,5 +148,15 @@ elif choice == '8':
     c.Username = username
     c.Limit = limit444
     c.Media == True
+
+    twint.run.Search(c)
+elif choice == '9':
+    special_keyword = input("osinter@tw1tter0s1nt > What would you like to search for? : ")
+    min_likes = input("osinter@tw1tter0s1nt > Specify the minimum likes of a tweet : ")
+    limit555 = input("osinter@tw1tter0s1nt > And finally enter the limit of tweets here  :")
+    c = twint.Config()
+    c.Username = username
+    c.Limit = limit555
+    c.Min_likes = min_likes
 
     twint.run.Search(c)
