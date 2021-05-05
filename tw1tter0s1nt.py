@@ -14,14 +14,15 @@ print(r"""  █████                    ████   █████   
                                                                                                                       
                                                                                                                       
                                                                                                                       """)
-print("tw1tter0s1nt - A tool for Penetration Testers and Ethical Hacking students")
+print("tw1tter0s1nt - A tool for Ethical Hackers & Journalists")
 print("")
 print("tw1tter0s1nt is a twint based OSiNT tool for investigations on Twitter!")
 print("This python script makes it much easier to use twint!")
 print("Developer --> c0m3t-k2")
-print("Github page --> https://github.com/c0m3t-k2/tw1tter0s1nt.git")
+print("Github page --> https://github.com/c0m3t-k2/tw1tter0s1nt")
+print("My Github page --> https://github.com/c0m3t-k2/")
 print("")
-print("tw1tter0s1nt --> version 1.3")
+print("tw1tter0s1nt --> version 1.7")
 print("")
 print("")
 
@@ -34,11 +35,13 @@ print("3 - Search for potential emails")
 print("4 - Search for potential numbers")
 print("5 - Pull all the followers from", username, " + a lot of information on them")
 print("6 - Who is", username, "following?")
-print("7 - Investigate", username, "")
+print("7 - Get more information on", username, "")
 print("8 - Filter", username, "'s tweets by media")
 print("9 - Filter results by minimum likes ")
+print("10 - Search for geo-coded tweets by", username, "(Still in development)")
+print("11 - Search tweets that were posted near a city you specify")
 print("")
-print("osinter@tw1tter0s1nt > Message from c0m3t-k2 ---> You may find bugs with option 9 since it just got released. Anything goes wrong, contact me on Github!")
+print("osinter@tw1tter0s1nt > Message from c0m3t-k2 ---> You may find bugs with option 10 since it just got released. Anything goes wrong, contact me on Github!")
 print("")
 
 choice = input("osinter@tw1tter0s1nt > What would you like to search? :")
@@ -160,3 +163,25 @@ elif choice == '9':
     c.Min_likes = min_likes
 
     twint.run.Search(c)
+elif choice == '10':
+    print("osinter@tw1tter0s1nt #> This option is still in development! ")
+elif choice == '11':
+    print("osinter@tw1tter0s1nt #> Roger that!")
+    near_city = input("osinter@tw1tter0s1nt #> Choose a city : ")
+    limit777 = input("osinter@tw1tter0s1nt #> Input the limit right here : ")
+    c = twint.Config()
+    c.Username = username
+    c.Limit = limit777
+    c.Near = near_city
+    twint.run.Search(c)
+    #elif limit_choice1 == 'n' or 'N' or 'no' or 'NO':
+        #print("osinter@tw1tter0s1nt #> Roger that!")
+        #c = twint.Config()
+        #c.Username = username
+        #c.Near = near_city
+        #twint.run.Search(c)
+
+        # If you are seeing this. Thank you for peeking into the source code. If you find anything out of the ordinary or have better ideas, contact me!
+else:
+    print("osinter@tw1tter0s1nt #> Unfortunetyl c0m3t-k2 hasn't programmed me enough to understand your input! Please report this to the github in case you think it's a glitch!")
+    print("osinter@tw1tter0s1nt #> No. 1 solution --> Check if you made a typo. If you have, restart the program and pay more attention!")
