@@ -26,5 +26,14 @@ INSTALLATION :
   - chmod +x tw1tter0s1nt.py
   - python3 tw1tter0s1nt.py
 
+ WHO IS THIS TOOL FOR? : 
+  - Penetration testers/Ethical hackers
+  - IT students that are looking for something cool to search.
+  - OSiNT investigators (This tool is a MUST for you! It makes the job much more faster and efficient!)
+  - Journalists who are looking for more information on a specific celebrity or person
+ 
+Anyone can use this tool as it's open source and ready to go, however, these are the people who will most likely add tw1tter0s1nt in their tool-kit!
+
+CURRENT VERSION --> tw1tter0s1nt 1.7
 
 Thanks, c0m3t-k2!
