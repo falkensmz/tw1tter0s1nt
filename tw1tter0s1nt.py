@@ -22,7 +22,7 @@ print("Developer --> c0m3t-k2")
 print("Github page --> https://github.com/c0m3t-k2/tw1tter0s1nt")
 print("My Github page --> https://github.com/c0m3t-k2/")
 print("")
-print("tw1tter0s1nt --> version 1.7")
+print("tw1tter0s1nt --> version 1.8")
 print("")
 print("")
 
