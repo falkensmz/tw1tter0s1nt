@@ -28,7 +28,7 @@ it easier to read.
  
  - Also, if you have any kind of suggestion, feel free to let me know about it. If it's a good idea, I will implement it in the next update!
  
-tw1tter0s1nt ---> version 1.7
+tw1tter0s1nt ---> version 1.8
 
 Thanks for reading,
                   c0m3t-k2!
