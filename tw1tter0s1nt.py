@@ -3,17 +3,15 @@ from datetime import datetime
 
 print("")
 print("")
-print(r"""  █████                    ████   █████     █████                          █████            ████              █████   
- ░░███                    ░░███  ░░███     ░░███                         ███░░░███         ░░███             ░░███    
- ███████   █████ ███ █████ ░███  ███████   ███████    ██████  ████████  ███   ░░███  █████  ░███  ████████   ███████  
-░░░███░   ░░███ ░███░░███  ░███ ░░░███░   ░░░███░    ███░░███░░███░░███░███    ░███ ███░░   ░███ ░░███░░███ ░░░███░   
-  ░███     ░███ ░███ ░███  ░███   ░███      ░███    ░███████  ░███ ░░░ ░███    ░███░░█████  ░███  ░███ ░███   ░███    
-  ░███ ███ ░░███████████   ░███   ░███ ███  ░███ ███░███░░░   ░███     ░░███   ███  ░░░░███ ░███  ░███ ░███   ░███ ███
-  ░░█████   ░░████░████    █████  ░░█████   ░░█████ ░░██████  █████     ░░░█████░   ██████  █████ ████ █████  ░░█████ 
-   ░░░░░     ░░░░ ░░░░    ░░░░░    ░░░░░     ░░░░░   ░░░░░░  ░░░░░        ░░░░░░   ░░░░░░  ░░░░░ ░░░░ ░░░░░    ░░░░░  
-                                                                                                                      
-                                                                                                                      
-                                                                                                                      """)
+print(r"""_________          __ __________________ _______  _______  _______  _______  __    _       _________
+\__   __/|\     /|/  \\__   __/\__   __/(  ____ \(  ____ )(  __   )(  ____ \/  \  ( (    /|\__   __/
+   ) (   | )   ( |\/) )  ) (      ) (   | (    \/| (    )|| (  )  || (    \/\/) ) |  \  ( |   ) (   
+   | |   | | _ | |  | |  | |      | |   | (__    | (____)|| | /   || (_____   | | |   \ | |   | |   
+   | |   | |( )| |  | |  | |      | |   |  __)   |     __)| (/ /) |(_____  )  | | | (\ \) |   | |   
+   | |   | || || |  | |  | |      | |   | (      | (\ (   |   / | |      ) |  | | | | \   |   | |   
+   | |   | () () |__) (_ | |      | |   | (____/\| ) \ \__|  (__) |/\____) |__) (_| )  \  |   | |   
+   )_(   (_______)\____/ )_(      )_(   (_______/|/   \__/(_______)\_______)\____/|/    )_)   )_(   
+                                                                                                    """)
 print("tw1tter0s1nt - A tool for Ethical Hackers & Journalists")
 print("")
 print("tw1tter0s1nt is a twint based OSiNT tool for investigations on Twitter!")
@@ -26,7 +24,7 @@ print("tw1tter0s1nt --> version 1.8")
 print("")
 print("")
 
-username = input("osinter@tw1tter0s1nt > Enter your target's name : ")
+username = input("osinter@tw1tter0s1nt #> Enter your target's name : ")
 
 print("")
 print("1 - Only the usernames of", username, "'s followers")
@@ -41,13 +39,13 @@ print("9 - Filter results by minimum likes ")
 print("10 - Search for geo-coded tweets by", username, "(Still in development)")
 print("11 - Search tweets that were posted near a city you specify")
 print("")
-print("osinter@tw1tter0s1nt > Message from c0m3t-k2 ---> You may find bugs with option 10 since it just got released. Anything goes wrong, contact me on Github!")
+print("osinter@tw1tter0s1nt #> Message from c0m3t-k2 ---> You may find bugs with option 10 since it just got released. Anything goes wrong, contact me on Github!")
 print("")
 
-choice = input("osinter@tw1tter0s1nt > What would you like to search? :")
+choice = input("osinter@tw1tter0s1nt #> What would you like to search? :")
 
 if choice == '1':
-    limit111 = input("osinter@tw1tter0s1nt > Enter a limit of tweets right here: ")
+    limit111 = input("osinter@tw1tter0s1nt #> Enter a limit of tweets right here: ")
     today = datetime.now().strftime('%Y-%m-%d')
 
     c = twint.Config()
@@ -76,11 +74,11 @@ if choice == '1':
     twint.run.Search(c)
 
 if choice == '2':
-    search = input("osinter@tw1tter0s1nt > Enter your SPECIAL keyword here: ")
-    limit1 = input("osinter@tw1tter0s1nt > Enter a limit of tweets: ")
-    option = input("osinter@tw1tter0s1nt > Would you like to specify a city where a possible tweet has been made?(y/n) : ")
+    search = input("osinter@tw1tter0s1nt #> Enter your SPECIAL keyword here: ")
+    limit1 = input("osinter@tw1tter0s1nt #> Enter a limit of tweets: ")
+    option = input("osinter@tw1tter0s1nt #> Would you like to specify a city where a possible tweet has been made?(y/n) : ")
     if option == 'y':
-        city = input("osinter@tw1tter0s1nt > Enter the city right here : ")
+        city = input("osinter@tw1tter0s1nt #> Enter the city right here : ")
         c = twint.Config()
         c.Search = search
         c.Near = city
@@ -95,7 +93,7 @@ if choice == '2':
         c.Popular_tweets == True
         twint.run.Search(c)
 elif choice == '3':
-    limit2 = input("osinter@tw1tter0s1nt > Enter a limit of tweets right here: ")
+    limit2 = input("osinter@tw1tter0s1nt #> Enter a limit of tweets right here: ")
     print("grabbing all the emails that", username, "has included in their tweets.....")
     print("")
     print("")
@@ -108,8 +106,8 @@ elif choice == '3':
     twint.run.Search(c)
 
 elif choice == '4':
-    limit3 = input("osinter@tw1tter0s1nt > Enter a limit of tweets right here: ")
-    print("osinter@tw1tter0s1nt > pulling all the tweets that have the keyword 'phone' in it")
+    limit3 = input("osinter@tw1tter0s1nt #> Enter a limit of tweets right here: ")
+    print("osinter@tw1tter0s1nt #> pulling all the tweets that have the keyword 'phone' in it")
     c = twint.Config()
     c.Username = username
     c.Limit = limit3
@@ -129,7 +127,7 @@ elif choice == '5':
     twint.run.Search(c)
 elif choice == '6':
     # not 100% working, still trying to fix some bugs
-    limit222 = input("osinter@tw1tter0s1nt > Enter a limit of users : ")
+    limit222 = input("osinter@tw1tter0s1nt #> Enter a limit of users : ")
     print("")
     print("coded by c0m3t-k2")
     print("Github page : https://github.com/c0m3t-k2/tw1tter0s1nt")
@@ -146,7 +144,7 @@ elif choice == '7':
 
     twint.run.Lookup(c)
 elif choice == '8':
-    limit444 = input("osinter@tw1tter0s1nt > Enter a limit for the tweets: ")
+    limit444 = input("osinter@tw1tter0s1nt #> Enter a limit for the tweets: ")
     c = twint.Config()
     c.Username = username
     c.Limit = limit444
@@ -154,9 +152,9 @@ elif choice == '8':
 
     twint.run.Search(c)
 elif choice == '9':
-    special_keyword = input("osinter@tw1tter0s1nt > What would you like to search for? : ")
-    min_likes = input("osinter@tw1tter0s1nt > Specify the minimum likes of a tweet : ")
-    limit555 = input("osinter@tw1tter0s1nt > And finally enter the limit of tweets here  :")
+    special_keyword = input("osinter@tw1tter0s1nt #> What would you like to search for? : ")
+    min_likes = input("osinter@tw1tter0s1nt #> Specify the minimum likes of a tweet : ")
+    limit555 = input("osinter@tw1tter0s1nt #> And finally enter the limit of tweets here  :")
     c = twint.Config()
     c.Username = username
     c.Limit = limit555
@@ -174,18 +172,11 @@ elif choice == '11':
     c.Limit = limit777
     c.Near = near_city
     twint.run.Search(c)
-#elif limit_choice1 == 'n' or 'N' or 'no' or 'NO':
-	#print("osinter@tw1tter0s1nt #> Roger that!")
+    #elif limit_choice1 == 'n' or 'N' or 'no' or 'NO':
+        #print("osinter@tw1tter0s1nt #> Roger that!")
         #c = twint.Config()
         #c.Username = username
         #c.Near = near_city
         #twint.run.Search(c)
 
         # If you are seeing this. Thank you for peeking into the source code. If you find anything out of the ordinary or have better ideas, contact me!
-else:
-    print("osinter@tw1tter0s1nt #> Unfortunetyl c0m3t-k2 hasn't programmed me enough to understand your input! Please report this to the github in case you think it's a glitch!")
-    print("osinter@tw1tter0s1nt #> No. 1 solution --> Check if you made a typo. If you have, restart the program and pay more attention!")
-	
-	
-# Thank you for using tw1tter0s1nt and help spread this tool so great pentesters and journalists will use it. Best way to use tw1tter0s1nt is to combine it with anonsurf which is
-# a ParrotSec OS module that forces all your traffic trough Tor. I will soon add anonymous scans. Thanks again! <3
