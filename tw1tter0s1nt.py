@@ -174,8 +174,8 @@ elif choice == '11':
     c.Limit = limit777
     c.Near = near_city
     twint.run.Search(c)
-    #elif limit_choice1 == 'n' or 'N' or 'no' or 'NO':
-        #print("osinter@tw1tter0s1nt #> Roger that!")
+#elif limit_choice1 == 'n' or 'N' or 'no' or 'NO':
+	#print("osinter@tw1tter0s1nt #> Roger that!")
         #c = twint.Config()
         #c.Username = username
         #c.Near = near_city
@@ -185,3 +185,7 @@ elif choice == '11':
 else:
     print("osinter@tw1tter0s1nt #> Unfortunetyl c0m3t-k2 hasn't programmed me enough to understand your input! Please report this to the github in case you think it's a glitch!")
     print("osinter@tw1tter0s1nt #> No. 1 solution --> Check if you made a typo. If you have, restart the program and pay more attention!")
+	
+	
+# Thank you for using tw1tter0s1nt and help spread this tool so great pentesters and journalists will use it. Best way to use tw1tter0s1nt is to combine it with anonsurf which is
+# a ParrotSec OS module that forces all your traffic trough Tor. I will soon add anonymous scans. Thanks again! <3
