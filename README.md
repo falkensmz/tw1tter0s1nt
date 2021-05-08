@@ -31,9 +31,21 @@ INSTALLATION :
   - IT students that are looking for something cool to search.
   - OSiNT investigators (This tool is a MUST for you! It makes the job much more faster and efficient!)
   - Journalists who are looking for more information on a specific celebrity or person
- 
+
+ Some things to note:
+ - You NEED the python library twint. Installation gudie right here : https://github.com/twintproject/twint
+ - The author of the tool is not responsible in any way of one's misactions using tw1tter0s1nt.
+ - Please keep in mind that this is a tool made by only a person and so it is hard to keep up with all the bugs and issues.
+ - Still, if you find any bugs, report them in the issues section!
+
+ TESTED ENVIRONMENTS:
+ - Kali Linux => Fully supported {All the tests are first performed on Kali, so if there are any issues, it might have to do with the distro you use}
+ - ParrotSec OS => Fully suppoted
+ - Linux Mint => Fully supported
+
+
 Anyone can use this tool as it's open source and ready to go, however, these are the people who will most likely add tw1tter0s1nt in their tool-kit!
 
-CURRENT VERSION --> tw1tter0s1nt 1.7
+CURRENT VERSION --> tw1tter0s1nt 1.8
 
 Thanks, c0m3t-k2!
