@@ -1,5 +1,7 @@
 import twint
 from datetime import datetime
+import subprocess
+
 
 print("")
 print("")
@@ -16,6 +18,7 @@ print("tw1tter0s1nt - A tool for Ethical Hackers & Journalists")
 print("")
 print("tw1tter0s1nt is a twint based OSiNT tool for investigations on Twitter!")
 print("This python script makes it much easier to use twint!")
+print("An optional but recommended step is to run this program under some secure network such as Tor. This will make sure you stay hidden while using tw1tter0s1nt!")
 print("Developer --> c0m3t-k2")
 print("Github page --> https://github.com/c0m3t-k2/tw1tter0s1nt")
 print("My Github page --> https://github.com/c0m3t-k2/")
@@ -38,6 +41,7 @@ print("8 - Filter", username, "'s tweets by media")
 print("9 - Filter results by minimum likes ")
 print("10 - Search for geo-coded tweets by", username, "(Still in development)")
 print("11 - Search tweets that were posted near a city you specify")
+print("12 - What are", username, "'s stats? [Retweets, likes, folowers etc. ]")
 print("")
 print("osinter@tw1tter0s1nt #> Message from c0m3t-k2 ---> You may find bugs with option 10 since it just got released. Anything goes wrong, contact me on Github!")
 print("")
@@ -172,11 +176,22 @@ elif choice == '11':
     c.Limit = limit777
     c.Near = near_city
     twint.run.Search(c)
-    #elif limit_choice1 == 'n' or 'N' or 'no' or 'NO':
-        #print("osinter@tw1tter0s1nt #> Roger that!")
-        #c = twint.Config()
-        #c.Username = username
-        #c.Near = near_city
-        #twint.run.Search(c)
+elif choice == '12':
+    print("osinter@tw1tter0s1nt #> Alright!")
+    limit_wish = input("osinter@tw1tter0s1nt #> Do you wish to enter a limit? (y/N)")
+    if limit_wish == 'y' or 'Y' or 'yes' or 'YES':
+        limit000 = input('osinter@tw1tter0s1nt #> Roger that! Enter the limit right here : ')
+        c = twint.Config()
+        c.Username = username
+        c.Limit = limit000
+        c.Stats = True
+        twint.run.Search(c)
+    else:
+        print('osinter@tw1tter0s1nt #> Understood! Scraping all of', username, "'s stats")
+        c = twint.Config()
+        c.Username = username
+        c.Stats = True
+        twint.run.Search(c)
 
-        # If you are seeing this. Thank you for peeking into the source code. If you find anything out of the ordinary or have better ideas, contact me!
+# Made with love by c0m3t-k2
+# If you are seeing this. Thank you for peeking into the source code. If you find anything out of the ordinary or have better ideas, contact me!
