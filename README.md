@@ -42,6 +42,11 @@ I have created this tool for begginers, to automate the process of twint.
  - Kali Linux ==> Fully supported
  - Linux Mint => Fully supported
 
+# Quick example
+
+![example_tw1tter0s1nt cleaned](https://user-images.githubusercontent.com/83426553/118394807-e7d48d80-b614-11eb-8057-f7d18aa39838.png)
+
+
 
 Anyone can use this tool as it's open source and ready to go, however, these are the people who will most likely add tw1tter0s1nt in their tool-kit!
 
