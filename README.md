@@ -11,7 +11,7 @@ I have created this tool for begginers, to automate the process of twint.
 
 - I will update this tool whenever new ideas pop in my head so let me know if you find any bugs or if you can help me improve the tool!
 
-REQUIREMENTS : 
+# REQUIREMENTS : 
 
   - twint fully installed  (https://github.com/twintproject/twint)
   - A Linux distro
@@ -19,14 +19,14 @@ REQUIREMENTS :
   - python3-pip
   - git
 
-INSTALLATION :
+# INSTALLATION :
 
   - git clone https://github.com/c0m3t-k2/tw1trer0s1nt.git
   - cd tw1tter0s1nt
   - chmod +x tw1tter0s1nt.py
   - python3 tw1tter0s1nt.py
 
- WHO IS THIS TOOL FOR? : 
+# WHO IS THIS TOOL FOR? : 
   - Penetration testers/Ethical hackers
   - IT students that are looking for something cool to search.
   - OSiNT investigators (This tool is a MUST for you! It makes the job much more faster and efficient!)
@@ -38,9 +38,8 @@ INSTALLATION :
  - Please keep in mind that this is a tool made by only a person and so it is hard to keep up with all the bugs and issues.
  - Still, if you find any bugs, report them in the issues section!
 
- TESTED ENVIRONMENTS:
- - Kali Linux => Fully supported {All the tests are first performed on Kali, so if there are any issues, it might have to do with the distro you use}
- - ParrotSec OS => Fully suppoted
+# TESTED ENVIRONMENTS:
+ - Kali Linux ==> Fully supported
  - Linux Mint => Fully supported
 
 
