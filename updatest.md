@@ -26,3 +26,12 @@ my proxies that I scrape from different public sources in conjuction with Tor (i
 to catch hackers, however, this is for educational-purposes and for legit penetration testers so I am not paranoid. Just keep in mind that the NSA and other agencies
 host their own malicious exit nodes to capture your traffic.
 
+# Debian Problem
+
+ - So there's a problem with the original flavour of Debian 10 .
+ - I have recently switched from Mint to Debian since I really do not need the additional software managers etc. that Mint comes pre-installed with. But there's a slight problem 
+ - Twint cannot be properly installed on the original flavour of Debian
+ - Some how, for some reason, I just cannot get Twint to work on Debian. And as you know, tw1tter0s1nt uses Twint, so obviously tw1tter0s1nt DOES NOT work on Debian. Why does it work on Kali (since it's debian based). I have no idea
+ - I am trouble-shooting for a few days now.
+ - I'll get back ASAP.
+
