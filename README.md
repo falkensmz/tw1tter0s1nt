@@ -21,7 +21,7 @@ I have created this tool for begginers, to automate the process of twint.
 
 # INSTALLATION :
 
-  - git clone https://github.com/c0m3t-k2/tw1trer0s1nt.git
+  - git clone https://github.com/c0m3t-k2/tw1tter0s1nt.git
   - cd tw1tter0s1nt
   - chmod +x tw1tter0s1nt.py
   - python3 tw1tter0s1nt.py
