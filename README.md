@@ -41,6 +41,7 @@ I have created this tool for begginers, to automate the process of twint.
 # TESTED ENVIRONMENTS:
  - Kali Linux ==> Fully supported
  - Linux Mint => Fully supported
+ - Peppermint OS => Fully supported
 
 # Quick example
 
