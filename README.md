@@ -11,20 +11,15 @@ I have created this tool for begginers, to automate the process of twint.
 
 - I will update this tool whenever new ideas pop in my head so let me know if you find any bugs or if you can help me improve the tool!
 
-# REQUIREMENTS : 
-
-  - twint fully installed  (https://github.com/twintproject/twint)
-  - A Linux distro
-  - Python3
-  - python3-pip
-  - git
-
 # INSTALLATION :
 
   - git clone https://github.com/c0m3t-k2/tw1tter0s1nt.git
   - cd tw1tter0s1nt
+  - pip install -r requirements.txt / pip3 install -r requirements.txt
   - chmod +x tw1tter0s1nt.py
   - python3 tw1tter0s1nt.py
+ 
+If the requirements file doesn't work, type in : pip3 install twint
 
 # WHO IS THIS TOOL FOR? : 
   - Penetration testers/Ethical hackers
