@@ -1,5 +1,7 @@
-# tw1tter0s1nt
-Python tool that automates the process of Twitter OSiNT investigation using twint.
+# tw1tter0s1nt - v 1.9
+
+![twitter0s1nt_logo](https://user-images.githubusercontent.com/83426553/121810721-9c8cb980-cc6a-11eb-9431-6cc6b20236a2.jpg)
+
 
 Hello everybody, I go by the name c0m3t-k2 or just c0m3t.
 
