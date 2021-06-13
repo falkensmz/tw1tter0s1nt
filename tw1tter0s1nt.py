@@ -14,15 +14,9 @@ print(r"""_________          __ __________________ _______  _______  _______  __
    | |   | () () |__) (_ | |      | |   | (____/\| ) \ \__|  (__) |/\____) |__) (_| )  \  |   | |   
    )_(   (_______)\____/ )_(      )_(   (_______/|/   \__/(_______)\_______)\____/|/    )_)   )_(   
                                                                                                     """)
-print("tw1tter0s1nt - A tool for Ethical Hackers & Journalists")
 print("")
 print("tw1tter0s1nt is a twint based OSiNT tool for investigations on Twitter!")
-print("This python script makes it much easier to use twint!")
-print("An optional but recommended step is to run this program under some secure network such as Tor. This will make sure you stay hidden while using tw1tter0s1nt!")
-print("Developer --> c0m3t-k2")
-print("Github page --> https://github.com/c0m3t-k2/tw1tter0s1nt")
-print("My Github page --> https://github.com/c0m3t-k2/")
-print("")
+print()
 print("tw1tter0s1nt --> version 1.9")
 print("")
 print("")
