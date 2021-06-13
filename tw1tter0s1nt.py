@@ -1,6 +1,5 @@
 import twint
 from datetime import datetime
-import subprocess
 
 
 print("")
