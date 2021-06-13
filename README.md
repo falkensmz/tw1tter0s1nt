@@ -3,7 +3,7 @@
 ![WhatsApp Image 2021-06-13 at 17 13 58](https://user-images.githubusercontent.com/83426553/121810787-d1007580-cc6a-11eb-9319-330e9a5e2068.jpeg)
 
 
-Hello everybody, I go by the name c0m3t-k2 or just c0m3t.
+Hello everybody, I go by the name c0m3t-k2 or falkensmaze.
 
 I have created this tool for begginers, to automate the process of twint.
 
