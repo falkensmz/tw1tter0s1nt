@@ -48,9 +48,9 @@ If the requirements file doesn't work, type in : pip3 install twint
  - Linux Mint => Fully supported
  - Peppermint OS => Fully supported
 
-# Quick example
+# Basic ussage:
 
-![example_tw1tter0s1nt cleaned](https://user-images.githubusercontent.com/83426553/118394807-e7d48d80-b614-11eb-8057-f7d18aa39838.png)
+![example](https://user-images.githubusercontent.com/83426553/122416485-73816700-cf91-11eb-935d-0a72b2c844e3.png)
 
 Anyone can contribute to this tool , but don't steal code nerd!
 
