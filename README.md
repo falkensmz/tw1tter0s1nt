@@ -46,7 +46,6 @@ If the requirements file doesn't work, type in : pip3 install twint
 # TESTED ENVIRONMENTS:
  - Kali Linux ==> Fully supported
  - Linux Mint => Fully supported
- - Peppermint OS => Fully supported
 
 # Basic ussage:
 
