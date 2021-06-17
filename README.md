@@ -1,4 +1,4 @@
-# tw1tter0s1nt - v 1.9
+# tw1tter0s1nt - v 2.0.0  HUGE UPDATE
 
 ![WhatsApp Image 2021-06-13 at 17 13 58](https://user-images.githubusercontent.com/83426553/121810787-d1007580-cc6a-11eb-9319-330e9a5e2068.jpeg)
 
@@ -12,6 +12,14 @@ I have created this tool for begginers, to automate the process of twint.
 - You just have to fill up the required information and select your chosen investigation and it's done!
 
 - I will update this tool whenever new ideas pop in my head so let me know if you find any bugs or if you can help me improve the tool!
+
+# UPDATE :
+ 
+  - 'Till now the tool was very automated, you only needed to put in the username and select the option
+  - Right now tough, it is much more interesting. 
+  - You can use the tool like a terminal cmd-line interface.
+  - If you get stuck, type in 'help'
+  - And for all of the script kiddies out there that want everything automated, don't worry , I re-coded an automation file "automation.py"
 
 # INSTALLATION :
 
