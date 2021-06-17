@@ -18,8 +18,8 @@ I have created this tool for begginers, to automate the process of twint.
   - git clone https://github.com/c0m3t-k2/tw1tter0s1nt.git
   - cd tw1tter0s1nt
   - pip install -r requirements.txt / pip3 install -r requirements.txt
-  - chmod +x tw1tter0s1nt.py
-  - python3 tw1tter0s1nt.py
+  - chmod +x twosint.py
+  - python3 twosint.py
  
 If the requirements file doesn't work, type in : pip3 install twint
 
@@ -44,10 +44,8 @@ If the requirements file doesn't work, type in : pip3 install twint
 
 ![example_tw1tter0s1nt cleaned](https://user-images.githubusercontent.com/83426553/118394807-e7d48d80-b614-11eb-8057-f7d18aa39838.png)
 
+Anyone can contribute to this tool , but don't steal code nerd!
 
-
-Anyone can use this tool as it's open source and ready to go, however, these are the people who will most likely add tw1tter0s1nt in their tool-kit!
-
-CURRENT VERSION --> tw1tter0s1nt 1.8
+CURRENT VERSION --> twosint 2.0.0
 
 Thanks, c0m3t-k2!
