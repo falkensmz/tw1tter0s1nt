@@ -49,7 +49,8 @@ If the requirements file doesn't work, type in : pip3 install twint
 
 # Basic ussage:
 
-![example](https://user-images.githubusercontent.com/83426553/122416485-73816700-cf91-11eb-935d-0a72b2c844e3.png)
+![new_example](https://user-images.githubusercontent.com/83426553/122554126-412f4280-d041-11eb-91b3-09904ef21b6d.png)
+
 
 Anyone can contribute to this tool , but don't steal code nerd!
 
