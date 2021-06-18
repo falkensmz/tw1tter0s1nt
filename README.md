@@ -21,8 +21,13 @@ I have created this tool for begginers, to automate the process of twint.
   - If you get stuck, type in 'help'
   - And for all of the script kiddies out there that want everything automated, don't worry , I re-coded an automation file "automation.py"
 
-# INSTALLATION :
+# twint INSTALLATION :
 
+  - git clone --depth=1 https://github.com/twintproject/twint.git
+  - cd twint
+  - pip3 install . -r requirements.txt
+
+# twosint INSTALLATION :
   - git clone https://github.com/c0m3t-k2/tw1tter0s1nt.git
   - cd tw1tter0s1nt
   - pip install -r requirements.txt / pip3 install -r requirements.txt
