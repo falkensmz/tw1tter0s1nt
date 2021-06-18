@@ -142,25 +142,25 @@ def introduction():
     if choice == 'username':
         print("twosint~#", username)
         introduction()
-    if choice == 'set usernameSearch':
+    if choice == 'run usernameSearch':
         print()
         usernameSearch()
-    if choice == 'set keyHunter':
+    if choice == 'run keyHunter':
         print()
         keyHunter()
-    if choice == 'set mailHunter':
+    if choice == 'run mailHunter':
         print()
         mailHunter()
-    if choice == 'set numHunter':
+    if choice == 'run numHunter':
         print()
         numHunter()
-    if choice == 'set followHunter':
+    if choice == 'run followHunter':
         print()
         followHunter()
-    if choice == 'set whoHunter':
+    if choice == 'run whoHunter':
         print()
         whoHunter()
-    if 'set soloInvestigation' in choice:
+    if 'run soloInvestigation' in choice:
         print()
         print("twosint~# Running the soloInvestigation module ... ")
         soloInvestigation()
