@@ -108,17 +108,75 @@ def soloInvestigation():
     
     twint.run.Lookup(c)
 
+def infoUsernameSearch():
+    print(r"""
+    usernameSearch - module number 0:
+    This module allows you to gather the usernames of your
+    target's followers. Just enter a limit to not crash the 
+    program , and you are good to go!""")
+
+def infoKeyHunter():
+    print(r"""
+    keyHunter - module number 1 :
+    This module allows you to search for a specific word
+    in your target's tweets. Enter the word and if everything
+    goes as planned, you should gather your tweets.""")
+
+def infoMailHunter():
+    print(r"""
+    mailHunter - module number 2 :
+    This module allows you to gather possible emails from your
+    target's tweets. The way it works is that it searches for
+    specific keywords such as "email" or "mail" .""")
+
+def infoNumHunter():
+    print(r"""
+    numHunter - module number 3 :
+    This module allows you to gather possible phone numbers
+    from your target's tweets. The way it works is that it
+    searches for specific keywords such as "phone number" or
+    "cellphone".""")
+
+def infoFollowHunter():
+    print(r"""
+    followHunter - module number 4 :
+    This module allows you to gather a lot of information on
+    your target's followers. It uses a technique that firstly
+    scrapes the target's followers usernames and then it investigates
+    their profiles.""")
+
+def infoWhoHunter():
+    print(r"""
+    whoHunter - module number 5 :
+    This module allows you to gather the usernames of the 
+    people that your target is following. Unlike followHunter,
+    this module only scrapes the usernames and it does not
+    investigate them!""")
+
+def infoSoloInvestigation():
+    print(r"""
+    soloInvestigation - module number 6 :
+    This module allow you to investigate your
+    target by all means. It scrapes their bio, current tweets,
+    followers , following etc. """)
+
 def introduction():
     choice = input("twosint~# ")
     if choice == 'help':
         print(r"""
-                    twosint - version 2.0.0
+                    twosint - version 2.0.2 Alpha Release
             
+            version                     - displays current version
+            clear                       - clears the screen
+            exit                        - exit
             modulebomb                  - shows all modules
             username                    - shows current set username
-            set [module name]           - selects the specified module
+            run [module name / module number]  - runs the chosen module
+            info [module name / module number] - get more information on a specified module
         """)
         introduction()
+    if choice == 'version':
+        print("twosint~# twosint - version 2.0.2 Alpha Release")
     if choice == 'clear':
         os.system("clear")
     if choice == 'exit':
@@ -142,28 +200,56 @@ def introduction():
     if choice == 'username':
         print("twosint~#", username)
         introduction()
-    if choice == 'run usernameSearch':
+    if choice == 'run usernameSearch' or choice == 'run 0':
         print()
         usernameSearch()
-    if choice == 'run keyHunter':
+    if choice == 'run 1' or choice == 'run keyHunter':
         print()
         keyHunter()
-    if choice == 'run mailHunter':
+    if choice == 'run 2' or choice == 'run mailHunter':
         print()
         mailHunter()
-    if choice == 'run numHunter':
+    if choice == 'run 3' or choice == 'run numHunter':
         print()
         numHunter()
-    if choice == 'run followHunter':
+    if choice == 'run 4' or choice == 'run followHunter':
         print()
         followHunter()
-    if choice == 'run whoHunter':
+    if choice == '5' or choice == 'run whoHunter':
         print()
         whoHunter()
-    if 'run soloInvestigation' in choice:
+    if choice == 'run 6' or choice == 'run soloInvestigation':
         print()
         print("twosint~# Running the soloInvestigation module ... ")
         soloInvestigation()
+    if choice == 'info 0' or choice == 'info usernameSearch':
+    	print()
+    	infoUsernameSearch()
+    	print()
+    if choice == 'info 1' or choice == 'info keyHunter':
+    	print()
+    	infoKeyHunter()
+    	print()
+    if choice == 'info 2' or choice == 'info mailHunter':
+    	print()
+    	infoMailHunter()
+    	print()
+    if choice == 'info 3' or choice == 'info numHunter':
+    	print()
+    	infoNumHunter()
+    	print()
+    if choice == 'info 4' or choice == 'info followHunter':
+    	print()
+    	infoFollowHunter()
+    	print()
+    if choice == 'info 5' or choice == 'info whoHunter':
+    	print()
+    	infoWhoHunter()
+    	print()
+    if choice == 'info 6' or choice == 'info soloInvestigation':
+    	print()
+    	infoSoloInvestigation()
+    	print()
     else:
         introduction()
 
