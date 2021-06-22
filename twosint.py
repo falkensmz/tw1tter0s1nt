@@ -2,6 +2,8 @@
 
 # author : falkensmaze (c0m3t-k2)
 
+# project code name : coyote
+
 import twint
 from datetime import datetime
 import os
@@ -107,6 +109,8 @@ def soloInvestigation():
     c.Username = username
     
     twint.run.Lookup(c)
+
+# project code name : coyote
 
 def infoUsernameSearch():
     print(r"""
@@ -254,3 +258,5 @@ def introduction():
         introduction()
 
 introduction()
+
+# project code name : coyote
