@@ -50,8 +50,7 @@ If the requirements file doesn't work, type in : pip3 install twint
 
 # TESTED ENVIRONMENTS:
  - Kali Linux ==> Fully supported
- - Linux Mint => Fully supported
-
+ - Pop!_OS
 # Basic ussage:
 
 ![new_example](https://user-images.githubusercontent.com/83426553/122554126-412f4280-d041-11eb-91b3-09904ef21b6d.png)
