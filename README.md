@@ -50,7 +50,22 @@ If the requirements file doesn't work, type in : pip3 install twint
 
 # TESTED ENVIRONMENTS:
  - Kali Linux ==> Fully supported
- - Pop!_OS
+ - Pop!_OS ==> Fully supported
+
+
+# Automation Script Announcmnet
+ - I put a lot of hard work in developing and maintaining the original twosint.py script . 
+ - The automation script usually for script kiddies is a better copy of the old automated tw1tter0sn1t.py file
+ - It is completely usable however , I wanted to announce this :
+      - Maintance updates will be applied once every month!
+      - Module updates will be applied 2 weeks after twosint.py BETA update
+      - Aesthetic (if any) will be applied 4 weeks after twosint.py will be updated
+      - Security updates will still be initiated right after I or someone else discoveres a hole in the script (I want my users to have a secure OSiNT investigation)
+ - What I am trying to do is create a Twiiter OSiNT framework!
+ - The tool will still automate a lot of subprocess that you will have to go through if you would do it without the script.
+ - Using the automation.py script is not wrong , however in some time I will probably end its updates!
+ - If the tool will get attention and if you want to contribute to it, you can absolutely implement the new features from twosint-framework to the automation file.
+ - The problem is that I do NOT have enough time to update the automation software fast.
 # Basic ussage:
 
 ![new_example](https://user-images.githubusercontent.com/83426553/122554126-412f4280-d041-11eb-91b3-09904ef21b6d.png)
@@ -58,6 +73,6 @@ If the requirements file doesn't work, type in : pip3 install twint
 
 Anyone can contribute to this tool , but don't steal code nerd!
 
-CURRENT VERSION --> twosint 2.0.0
+CURRENT VERSION --> twosint 2.0.3
 
 Thanks, c0m3t-k2!
