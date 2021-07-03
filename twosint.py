@@ -21,7 +21,7 @@ print(r"""████████╗██╗    ██╗ ██████�
 @c0m3t-k2 / falkensmaze                                                          
 
 """)
-print("twosint - v. 2.0.0")
+print("twosint - v. 2.0.3")
 print()
 username = input("twosint~# Before we start the investigation, please enter your target's username -> ")
 print("twosint~# Please enter 'help' if you are stuck!")
@@ -221,7 +221,7 @@ def introduction():
     choice = input("twosint~# ")
     if choice == 'help':
         print(r"""
-                    twosint - version 2.0.2 Alpha Release
+                    twosint - version 2.0.3 Full Release
             
             version                     - displays current version
             clear                       - clears the screen
@@ -233,7 +233,7 @@ def introduction():
         """)
         introduction()
     if choice == 'version':
-        print("twosint~# twosint - version 2.0.2 Alpha Release")
+        print("twosint~# twosint - version 2.0.3 ")
     if choice == 'clear':
         os.system("clear")
     if choice == 'exit':
