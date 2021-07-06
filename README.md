@@ -2,6 +2,9 @@
 
 ![WhatsApp Image 2021-06-13 at 17 13 58](https://user-images.githubusercontent.com/83426553/121810787-d1007580-cc6a-11eb-9319-330e9a5e2068.jpeg)
 
+# official blog post
+
+-> https://falkensmaze.medium.com/how-to-conduct-a-twitter-osint-investigation-like-a-pro-d04831478f1a
 
 Hello everybody, I go by the name c0m3t-k2 or falkensmaze.
 
