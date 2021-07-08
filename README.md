@@ -6,6 +6,8 @@
 
 -> https://falkensmaze.medium.com/how-to-conduct-a-twitter-osint-investigation-like-a-pro-d04831478f1a
 
+# INTRODUCTION 
+
 Hello everybody, I go by the name c0m3t-k2 or falkensmaze.
 
 I have created this tool for begginers, to automate the process of twint.
