@@ -10,7 +10,7 @@
 
 Hello everybody, I go by the name c0m3t-k2 or falkensmaze.
 
-I have created this tool for begginers, to automate the process of twint.
+I have created this tool for beginners, to automate the process of twint.
 
 - This python tool uses the twint library to automate the Twitter OSiNT Investigation steps.
 
@@ -21,7 +21,7 @@ I have created this tool for begginers, to automate the process of twint.
 # UPDATE :
  
   - 'Till now the tool was very automated, you only needed to put in the username and select the option
-  - Right now tough, it is much more interesting. 
+  - Right now though, it is much more interesting. 
   - You can use the tool like a terminal cmd-line interface.
   - If you get stuck, type in 'help'
   - And for all of the script kiddies out there that want everything automated, don't worry , I re-coded an automation file "automation.py"
@@ -43,13 +43,13 @@ If the requirements file doesn't work, type in : pip3 install twint
 
 # WHO IS THIS TOOL FOR? : 
   - Penetration testers/Ethical hackers
-  - IT students that are looking for something cool to search.
+  - IT students that are looking for something cool to search for.
   - OSiNT investigators (This tool is a MUST for you! It makes the job much more faster and efficient!)
   - Journalists who are looking for more information on a specific celebrity or person
 
  Some things to note:
- - You NEED the python library twint. Installation gudie right here : https://github.com/twintproject/twint
- - The author of the tool is not responsible in any way of one's misactions using tw1tter0s1nt.
+ - You NEED the python library twint. Installation guide right here : https://github.com/twintproject/twint
+ - The author of the tool is not responsible in any way for one's misactions using tw1tter0s1nt.
  - Please keep in mind that this is a tool made by only a person and so it is hard to keep up with all the bugs and issues.
  - Still, if you find any bugs, report them in the issues section!
 
@@ -58,20 +58,20 @@ If the requirements file doesn't work, type in : pip3 install twint
  - Pop!_OS ==> Fully supported
 
 
-# Automation Script Announcmnet
- - I put a lot of hard work in developing and maintaining the original twosint.py script . 
+# Automation Script Announcement
+ - I put a lot of hard work into developing and maintaining the original twosint.py script . 
  - The automation script usually for script kiddies is a better copy of the old automated tw1tter0sn1t.py file
  - It is completely usable however , I wanted to announce this :
-      - Maintance updates will be applied once every month!
-      - Module updates will be applied 2 weeks after twosint.py BETA update
+      - Maintenance updates will be applied once every month!
+      - Module updates will be applied 2 weeks after the twosint.py BETA update
       - Aesthetic (if any) will be applied 4 weeks after twosint.py will be updated
-      - Security updates will still be initiated right after I or someone else discoveres a hole in the script (I want my users to have a secure OSiNT investigation)
- - What I am trying to do is create a Twiiter OSiNT framework!
- - The tool will still automate a lot of subprocess that you will have to go through if you would do it without the script.
- - Using the automation.py script is not wrong , however in some time I will probably end its updates!
- - If the tool will get attention and if you want to contribute to it, you can absolutely implement the new features from twosint-framework to the automation file.
+      - Security updates will still be initiated right after I or someone else discovers a hole in the script (I want my users to have a secure OSiNT investigation)
+ - What I am trying to do is create a Twitter OSiNT framework!
+ - The tool will still automate a lot of subprocesses that you will have to go through if you would do it without the script.
+ - Using the automation.py script is not wrong , however, in some time I will probably end its updates!
+ - If the tool will get attention and if you want to contribute to it, you can absolutely implement the new features from the twosint-framework to the automation file.
  - The problem is that I do NOT have enough time to update the automation software fast.
-# Basic ussage:
+# Basic usage:
 
 ![new_example](https://user-images.githubusercontent.com/83426553/122554126-412f4280-d041-11eb-91b3-09904ef21b6d.png)
 
