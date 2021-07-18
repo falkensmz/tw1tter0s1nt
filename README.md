@@ -39,8 +39,19 @@ I have created this tool for beginners, to automate the process of twint.
   - chmod +x twosint.py
   - python3 twosint.py
  
+  Windows 
+  - pip3 install --user --upgrade -e git+https://github.com/twintproject/twint.git@origin/master#egg=twint
+  - git clone https://github.com/c0m3t-k2/tw1tter0s1nt.git
+  - cd [tw1tter0s1nt directory]
+  - python twosint.py / python3 twosint.py
 If the requirements file doesn't work, type in : pip3 install twint
 
+# windows support
+
+  - finally, twosint has full windows support.
+  - i have had loads of bugs with windows but now it is fully supported
+  - i have only tested it on Windows 10 and 11 (insider preview build)
+ 
 # WHO IS THIS TOOL FOR? : 
   - Penetration testers/Ethical hackers
   - IT students that are looking for something cool to search for.
