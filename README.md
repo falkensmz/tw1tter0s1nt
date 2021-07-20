@@ -48,9 +48,11 @@ If the requirements file doesn't work, type in : pip3 install twint
 
 # windows support
 
-  - finally, twosint has full windows support.
-  - i have had loads of bugs with windows but now it is fully supported
-  - i have only tested it on Windows 10 and 11 (insider preview build)
+- currently, me and the users of twosint have discorverd heavy bugs while using the framework on Windows
+- because of that, I have currently ended Windows support, however I am still working on it.
+- I will try to find a way to get it working on Windows but for now me and my friends have not found a way to get it working!
+- we recommend either using a VM or a cloud console.
+- Linux users, do not worry , Linux is 100% supported and it is the platform the framework is mainained on.
  
 # WHO IS THIS TOOL FOR? : 
   - Penetration testers/Ethical hackers
