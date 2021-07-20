@@ -1,4 +1,4 @@
-# twosint - v 2.0.3 Release
+# twosint - v 2.0.4 Release
 
 ![WhatsApp Image 2021-06-13 at 17 13 58](https://user-images.githubusercontent.com/83426553/121810787-d1007580-cc6a-11eb-9319-330e9a5e2068.jpeg)
 
@@ -86,9 +86,8 @@ If the requirements file doesn't work, type in : pip3 install twint
 
 ![new_example](https://user-images.githubusercontent.com/83426553/122554126-412f4280-d041-11eb-91b3-09904ef21b6d.png)
 
-
 Anyone can contribute to this tool , but don't steal code nerd!
 
-CURRENT VERSION --> twosint 2.0.3
+CURRENT VERSION --> twosint 2.0.4
 
 Thanks, c0m3t-k2!
