@@ -11,17 +11,24 @@ import os
 import sys
 
 print()
-print(r"""████████╗██╗    ██╗ ██████╗ ███████╗██╗███╗   ██╗████████╗
-╚══██╔══╝██║    ██║██╔═══██╗██╔════╝██║████╗  ██║╚══██╔══╝
-   ██║   ██║ █╗ ██║██║   ██║███████╗██║██╔██╗ ██║   ██║   
-   ██║   ██║███╗██║██║   ██║╚════██║██║██║╚██╗██║   ██║   
-   ██║   ╚███╔███╔╝╚██████╔╝███████║██║██║ ╚████║   ██║   
-   ╚═╝    ╚══╝╚══╝  ╚═════╝ ╚══════╝╚═╝╚═╝  ╚═══╝   ╚═╝   
-
-@c0m3t-k2 / falkensmaze                                                          
+print(r"""                                                                                                                
+ _________________  _____                   _____             ______   ____  _____   ______   _________________ 
+/                 \|\    \   _____     ____|\    \        ___|\     \ |    ||\    \ |\     \ /                 \
+\______     ______/| |    | /    /|   /     /\    \      |    |\     \|    | \\    \| \     \\______     ______/
+   \( /    /  )/   \/     / |    ||  /     /  \    \     |    |/____/||    |  \|    \  \     |  \( /    /  )/   
+    ' |   |   '    /     /_  \   \/ |     |    |    | ___|    \|   | ||    |   |     \  |    |   ' |   |   '    
+      |   |       |     // \  \   \ |     |    |    ||    \    \___|/ |    |   |      \ |    |     |   |        
+     /   //       |    |/   \ |    ||\     \  /    /||    |\     \    |    |   |    |\ \|    |    /   //        
+    /___//        |\ ___/\   \|   /|| \_____\/____/ ||\ ___\|_____|   |____|   |____||\_____/|   /___//         
+   |`   |         | |   | \______/ | \ |    ||    | /| |    |     |   |    |   |    |/ \|   ||  |`   |          
+   |____|          \|___|/\ |    | |  \|____||____|/  \|____|_____|   |____|   |____|   |___|/  |____|          
+     \(               \(   \|____|/      \(    )/        \(    )/       \(       \(       )/      \(            
+      '                '      )/          '    '          '    '         '        '       '        '            
+                              '                                                                                 
+twosint - Twitter OSiNT framework .- version 2.0.4
+Credits - @ falkensmaze (c0m3t-k2)
 
 """)
-print("twosint - v. 2.0.3")
 print()
 username = input("twosint~# Before we start the investigation, please enter your target's username -> ")
 print("twosint~# Please enter 'help' if you are stuck!")
@@ -217,11 +224,18 @@ def infoCl0udChas3r():
     meet your requirements!
     """)
 
+def socials():
+    print(r"""
+    Discord -> falkensmaze#0001
+    Instagram -> Not Active Yet
+    Github -> c0m3t-k2
+    twosint email -> twosintcontact@protonmail.com
+    """)
 def introduction():
     choice = input("twosint~# ")
     if choice == 'help':
         print(r"""
-                    twosint - version 2.0.3 Full Release
+                    twosint - version 2.0.4 Full Release
             
             version                     - displays current version
             clear                       - clears the screen
@@ -230,10 +244,11 @@ def introduction():
             username                    - shows current set username
             run [module name / module number]  - runs the chosen module
             info [module name / module number] - get more information on a specified module
+            socials                     - shows twosint's creator social profiles (for contact)
         """)
         introduction()
     if choice == 'version':
-        print("twosint~# twosint - version 2.0.3 ")
+        print("twosint~# twosint - version 2.0.4 ")
     if choice == 'clear':
         os.system("clear")
     if choice == 'exit':
@@ -256,6 +271,8 @@ def introduction():
         """)
         print()
         introduction()
+    if choice == 'socials':
+        socials()
     if choice == 'username':
         print("twosint~#", username)
         introduction()
