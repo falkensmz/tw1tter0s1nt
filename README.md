@@ -69,6 +69,7 @@ If the requirements file doesn't work, type in : pip3 install twint
 # TESTED ENVIRONMENTS:
  - Kali Linux ==> Fully supported
  - Pop!_OS ==> Fully supported
+ - Windows 10/11 ===> Support ended on 7/20/2021
 
 
 # Automation Script Announcement
