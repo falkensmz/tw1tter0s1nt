@@ -6,13 +6,6 @@
 
 -> https://falkensmaze.medium.com/how-to-conduct-a-twitter-osint-investigation-like-a-pro-d04831478f1a
 
-# UPDATE
-
-![update](https://user-images.githubusercontent.com/83426553/146050205-e692760b-7fd3-4fa4-a28b-b1cf71f537e2.png)
-
- - Like you are seeing, unfortunetely twint has stopped working!
- - I have predicted something like this could've happened and unfortunetely it has proven me right.
- - I have taken a break for a few months from all social media and that includes programming and cybersecurity and as I came back, I decided to continue my work on this project and that's when I realised that my code wasn't the problem,but it was twint's. I have tried to use the brand new version of twint 100% up-to-date for a very basic investigation as you can see but it just doesn't work. Twitter had probably patched the scrolling system thus making twint unusable. For now, there's really nothing that I can do. As twint is an open-source project, when I find time, I will myself look into it to see what causes the issue. There are for now just a few posts on this issue, but of course, it being very new it will take some time for people to realise that twint has currently stopped working. I f the developers patch this new updates that include the module "link3R" will be implemented as the 2.0.5 version of twint. There is another very interesting module coming up which is already coded but like I said , we need to wait for a patch from the twintproject developers.
 
 # INTRODUCTION 
 
