@@ -1,8 +1,8 @@
 # complete tool with cmd line interface for more advanced users
 
-# author : falkensmaze (c0m3t-k2)
+# author : falkensmz
 
-# project code name : coyote
+# project code name : impish scrper
 
 
 import twint
@@ -25,8 +25,8 @@ print(r"""
      \(               \(   \|____|/      \(    )/        \(    )/       \(       \(       )/      \(            
       '                '      )/          '    '          '    '         '        '       '        '            
                               '                                                                                 
-twosint - Twitter OSiNT framework .- version 2.0.4
-Credits - @ falkensmaze (c0m3t-k2)
+twosint - Twitter OSiNT framework .- version 2.0.5 beta 
+Credits - @ faleknsmz
 
 """)
 print()
@@ -143,6 +143,30 @@ def cl0udchas3r():
 
     twint.run.Search(c)
 
+def shadowHunter():
+    print()
+    try:
+
+        c = twint.Config()
+        c.Username = username
+
+        twint.run.Profile(c)
+
+    except Exception:
+        print("twosint~# [-] twint was not able to return any data")
+
+
+def geoLocater():
+    print()
+    try:
+        c = twint.Config()
+        c.Username = username
+        c.Location = True
+
+        twint.run.Search(c)
+    except Exception:
+        print("twosint~# [-] twint was unable to grab the user's location")
+
 
 def infoUsernameSearch():
     print(r"""
@@ -224,7 +248,22 @@ def infoCl0udChas3r():
     meet your requirements!
     """)
 
-def socials():
+def infoShadowHunter():
+    print(r"""
+    shadowHunter - module number 10
+    This module was specifically designed to hunt down
+    and gather as much information as possible on a 
+    shadow banned users.
+    """)
+
+def infoGeoLocater():
+    print(r"""
+    geoLocater - module number 11
+    This module is designed to attempt to grab a user's
+    location.
+    """)
+
+#def socials():
     print(r"""
     Discord -> falkensmaze#0001
     Instagram -> Not Active Yet
@@ -235,7 +274,7 @@ def introduction():
     choice = input("twosint~# ")
     if choice == 'help':
         print(r"""
-                    twosint - version 2.0.4 Full Release
+                    twosint - version 2.0.5 Beta Release
             
             version                     - displays current version
             clear                       - clears the screen
@@ -244,11 +283,10 @@ def introduction():
             username                    - shows current set username
             run [module name / module number]  - runs the chosen module
             info [module name / module number] - get more information on a specified module
-            socials                     - shows twosint's creator social profiles (for contact)
         """)
         introduction()
     if choice == 'version':
-        print("twosint~# twosint - version 2.0.4 ")
+        print("twosint~# twosint - version 2.0.5 Beta ")
     if choice == 'clear':
         os.system("clear")
     if choice == 'exit':
@@ -266,8 +304,10 @@ def introduction():
         5 - whoHunter                   [who is your target following]
         6 - soloInvestigation           [get current stats and more on your tareget]
         7 - nearVan                     [scrape tweets near a city you specify]
-        8 - link3R                      [scrape tweets that have links in them] {NOT RELEASED}
+        8 - link3R                      [scrape tweets that have links in them] {NOT RELEASED YET}
         9 - cl0udchas3r                 [scrape tweets with minimum likes/retweets/replies]
+        10 - shadowHunter               [researches shadow banned accounts]
+        11 - geoLocater                 [attempts to grab user's location]
         """)
         print()
         introduction()
@@ -309,6 +349,14 @@ def introduction():
         print()
         cl0udchas3r()
         print()
+    if choice == 'run 10' or choice == 'run shadowHunter':
+        print()
+        shadowHunter()
+        print()
+    if choice == 'run 11' or choice == 'run geoLocater':
+        print()
+        geoLocater()
+        print()
     if choice == 'info 0' or choice == 'info usernameSearch':
     	print()
     	infoUsernameSearch()
@@ -348,6 +396,14 @@ def introduction():
     if choice == 'info 9' or choice == 'info cl0udchas3r':
         print()
         infoCl0udChas3r()
+        print()
+    if choice == 'info 10' or choice == 'info shadowHunter':
+        print()
+        infoShadowHunter()
+        print()
+    if choice == 'info 11' or choice == 'info geoLocater':
+        print()
+        infoGeoLocater()
         print()
     else:
         introduction()
