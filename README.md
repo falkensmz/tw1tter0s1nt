@@ -28,16 +28,14 @@ If the requirements file doesn't work, type in : pip3 install twint
 
 
 # WHO IS THIS TOOL FOR? : 
-  - Penetration testers/Ethical hackers
-  - IT students that are looking for something cool to search for.
-  - OSiNT investigators (This tool is a MUST for you! It makes the job much more faster and efficient!)
-  - Journalists who are looking for more information on a specific celebrity or person
+ - Penetration Testers/Ethcial Hackers
+ - Cybersecurity enthusiasts
+ - OSiNT investigators
 
  Some things to note:
- - You NEED the python library twint. Installation guide right here : https://github.com/twintproject/twint
+ - You NEED the twint python library. Installation guide right here : https://github.com/twintproject/twint
  - The author of the tool is not responsible in any way for one's misactions using tw1tter0s1nt.
- - Please keep in mind that this is a tool made by only a person and so it is hard to keep up with all the bugs and issues.
- - Still, if you find any bugs, report them in the issues section!
+ - If you find any issues, report them to the issues tab.
 
 # TESTED ENVIRONMENTS:
  - Debian 11
