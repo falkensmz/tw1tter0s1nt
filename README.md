@@ -6,6 +6,21 @@
 
 -> https://falkensmaze.medium.com/how-to-conduct-a-twitter-osint-investigation-like-a-pro-d04831478f1a
 
+# twosint modules
+
+        0 - usernameSearch              [get usernames of your target's followers]
+        1 - keyHunter                   [get tweets that only have your chosen keyword in them]
+        2 - mailHunter                  [search for potential emails]
+        3 - numHunter                   [search for potential phone numbers]
+        4 - followHunter                [get a lot of information on target's followers]
+        5 - whoHunter                   [who is your target following]
+        6 - soloInvestigation           [get current stats and more on your tareget]
+        7 - nearVan                     [scrape tweets near a city you specify]
+        8 - link3R                      [scrape tweets that have links in them] {NOT RELEASED YET}
+        9 - cl0udchas3r                 [scrape tweets with minimum likes/retweets/replies]
+        10 - shadowHunter               [researches shadow banned accounts]
+        11 - geoLocater                 [attempts to grab user's location]
+
 # twint INSTALLATION :
 
   - git clone --depth=1 https://github.com/twintproject/twint.git
@@ -18,14 +33,6 @@
   - pip install -r requirements.txt / pip3 install -r requirements.txt
   - chmod +x twosint.py
   - python3 twosint.py
- 
-  Windows 
-  - pip3 install --user --upgrade -e git+https://github.com/twintproject/twint.git@origin/master#egg=twint
-  - git clone https://github.com/c0m3t-k2/tw1tter0s1nt.git
-  - cd [tw1tter0s1nt directory]
-  - python twosint.py / python3 twosint.py
-If the requirements file doesn't work, type in : pip3 install twint
-
 
 # WHO IS THIS TOOL FOR? : 
  - Penetration Testers/Ethcial Hackers
