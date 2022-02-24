@@ -16,7 +16,7 @@
         5 - whoHunter                   [who is your target following]
         6 - soloInvestigation           [get current stats and more on your tareget]
         7 - nearVan                     [scrape tweets near a city you specify]
-        8 - link3R                      [scrape tweets that have links in them] {NOT RELEASED YET}
+        8 - link3R                      [scrape tweets with/without links]
         9 - cl0udchas3r                 [scrape tweets with minimum likes/retweets/replies]
         10 - shadowHunter               [researches shadow banned accounts]
         11 - geoLocater                 [attempts to grab user's location]
