@@ -1,4 +1,4 @@
-# twosint - v 2.0.5 Beta Release
+# twosint - v 2.0.5 Full Release
 
 ![WhatsApp Image 2021-06-13 at 17 13 58](https://user-images.githubusercontent.com/83426553/121810787-d1007580-cc6a-11eb-9319-330e9a5e2068.jpeg)
 
@@ -57,6 +57,6 @@
 
 Anyone can contribute to this tool , but don't steal code nerd!
 
-CURRENT VERSION --> twosint 2.0.5 Beta
+CURRENT VERSION --> twosint 2.0.5 
 
 
