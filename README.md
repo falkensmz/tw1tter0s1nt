@@ -28,7 +28,7 @@
   - pip3 install . -r requirements.txt
 
 # twosint INSTALLATION :
-  - git clone https://github.com/c0m3t-k2/tw1tter0s1nt.git
+  - git clone https://github.com/falkensmz/tw1tter0s1nt.git
   - cd tw1tter0s1nt
   - pip install -r requirements.txt / pip3 install -r requirements.txt
   - chmod +x twosint.py
